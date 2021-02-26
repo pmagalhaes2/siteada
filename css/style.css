@@ -8,6 +8,7 @@ body{
 
 .titulo-azul{
     color: #2A0074;
+    font-size: 40px;
 }
 
 .titulo-verde{
@@ -26,3 +27,35 @@ section{
     max-width: 60%;
     margin: 0 auto; /* 0 em cima e  em baixo e automática dos lados */
 }
+
+h1{
+    font-size: 60px;
+    font-weight: 300;
+  }
+  
+  
+  h3{
+    font-size: 22px;
+    font-style: italic;
+  }
+  
+  p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  ul{
+    list-style-type: none;
+    line-height: 2; /* altura da linha na lista */
+    padding-left: 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: #99ffff;
+    font-weight: 700; /*peso da fonte no link */
+  }
