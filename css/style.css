@@ -31,31 +31,51 @@ section{
 h1{
     font-size: 60px;
     font-weight: 300;
-  }
+}
   
   
-  h3{
+h3{
     font-size: 22px;
     font-style: italic;
-  }
+}
   
-  p{
+p{
     font-size: 20px;
     line-height: 1.5;
-  }
+}
 
-  img{
+img{
     width: 100%;
-  }
+}
 
-  ul{
+ul{
     list-style-type: none;
     line-height: 2; /* altura da linha na lista */
     padding-left: 0;
-  }
+}
 
-  a{
+a{
     text-decoration: none;
     color: #99ffff;
     font-weight: 700; /*peso da fonte no link */
-  }
+}
+
+.principal{
+    background: #FF6CB5;
+    height: 40px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.principal a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.principal li{
+    display: inline-block;
+    line-height: 2.5; /* a propriedade CSS line-height permite controlar o espaçamento entre as linhas de um texto */
+    margin: 0 89px;
+}
+
