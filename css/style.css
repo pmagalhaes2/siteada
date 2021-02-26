@@ -3,6 +3,7 @@ body{
     font-family: Open-sans, sans-serif;
     background-color: #8A71C9;
     color:#ffffff;
+    margin: 0;
 }
 
 .titulo-azul{
@@ -23,4 +24,5 @@ body{
 
 section{
     max-width: 60%;
+    margin: 0 auto; /* 0 em cima e  em baixo e automática dos lados */
 }
